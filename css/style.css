@@ -1,0 +1,74 @@
+/* Your custom styles */
+.intro-2 {
+    background: url("../img/cereal.gif") no-repeat center center;
+    background-size: cover;
+}
+
+.top-nav-collapse {
+    background-color: darkorange !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+.navbar1(.top-nav-collapse) {
+    background: red !important;
+}
+
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: darkorange !important;
+    }
+}
+
+.custom-gradient .full-bg-img {
+    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0), rgba(230,81,0 ,1) 100%);
+    background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(0,0,0 ,0) 100%)));
+    background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(0,0,0 ,0) 100%);
+}
+
+.card {
+    background-color: rgba(126, 123, 215, 0.2);
+}
+
+.md-form .prefix {
+    font-size: 1.5rem;
+}
+
+.md-form label {
+    color: #ffffff;
+}
+
+h6 {
+    line-height: 1.7;
+}
+
+@media (max-width: 740px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view {
+        height: 1040px;
+    }
+}
+
+.tooltip *{
+    background-color: #ff6d00;
+    color: whitesmoke;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.butonpedido {
+    margin-bottom: 25px !important;
+    margin-top: 25px !important;
+    margin-left: 30px !important;
+}
+
+.intro-3 {
+    background: url("../img/background.jpg") no-repeat center center;
+    background-size: cover;
+    background-repeat: repeat;
+}
